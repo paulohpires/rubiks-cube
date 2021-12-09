@@ -1,0 +1,57 @@
+body {
+  background-color: coral;
+  padding: 10px;
+}
+#menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+  background-color: darkgreen;
+}
+#passo1 {
+  font-weight: bold;
+  font-size: 25px;
+}
+#passo2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+#passo3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+#passo3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+#passo4 {
+  font-weight: bold;
+  font-size: 25px;
+}
+#passo5 {
+  font-weight: bold;
+  font-size: 25px;
+}
+#passo6 {
+  font-weight: bold;
+  font-size: 25px;
+}
+#passo7 {
+  font-weight: bold;
+  font-size: 25px;
+}
+#ultimopasso {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+li {
+  color: #fff;
+}
