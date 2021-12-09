@@ -2,261 +2,374 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Cubo_Magico</title>
   </head>
   <body>
+    <div id="menu">
+      <ul>
+        <li><a href="#passo1">Primeiro Passo</a></li>
+        <li><a href="#passo2">Segundo Passo </a></li>
+        <li><a href="#passo3">Terceiro Passo</a></li>
+        <li><a href="#passo4">Quarto Passo</a></li>
+        <li><a href="#passo5">Quinto Passo</a></li>
+        <li><a href="#passo6">Sexto Passo</a></li>
+        <li><a href="#passo7">Setimo Passo</a></li>
+        <li><a href="#ultimopasso">Ultimo Passo</a></li>
+      </ul>
+    </div>
+
     <header>
-    <h1>Conhecendo o Cubo Magico</h1>
-    <div class="conhecendo">
-      <p>a) Centros</p>
-      <p>b) Meios</p>
-      <p>c) Quinas</p>
-    <img src="conhecendo.jpg" class="imagem-conhecendo"/>
-    </div>
-    <h1>Movimentos (Básicos)</h1>
-    <div class="movimentosbasicos">
-      <p>a) R = Direita</p>
-      <p>b) L = Esquerda</p>
-      <p>c) U = Cima</p>
-      <img src="movimentos.jpg" class="imagem-movimentos"/>
-    </div>
-    <h1>Movimentos (intermediários)</h1>
-    <div class="movimentosintermediarios">
-      <p>a) R = Direita horário</p>
-      <p>b) RA = Direita anti-horário</p>
-      <p>c) R2 = Direita 2 vezes</p>
-    </div>
-    <h1>Aprendendo os movimentos:</h1>
-    <div class="movimementos">
-      <p>R + U + RA + UA = Nome do movimento = Direita</p>
-      <p>LA + UA + L + U = Nome do movimento = Esquerda</p>
-    </div>
+      <h1>Conhecendo o Cubo Magico</h1>
+      <div class="conhecendo">
+        <p>a) Centros</p>
+        <p>b) Meios</p>
+        <p>c) Quinas</p>
+        <img src="conhecendo.jpg" class="imagem-conhecendo" />
+      </div>
+      <h1>Movimentos (Básicos)</h1>
+      <div class="movimentosbasicos">
+        <p>a) R = Direita</p>
+        <p>b) L = Esquerda</p>
+        <p>c) U = Cima</p>
+        <img src="movimentos.jpg" class="imagem-movimentos" />
+      </div>
+      <h1>Movimentos (intermediários)</h1>
+      <div class="movimentosintermediarios">
+        <p>a) R = Direita horário</p>
+        <p>b) RA = Direita anti-horário</p>
+        <p>c) R2 = Direita 2 vezes</p>
+      </div>
+      <h1>Aprendendo os movimentos:</h1>
+      <div class="movimementos">
+        <p>R + U + RA + UA = Nome do movimento = Direita</p>
+        <p>LA + UA + L + U = Nome do movimento = Esquerda</p>
+      </div>
+    </header>
+
+    <main>
+      <p>
+        Agora que já aprendemos os movimentos básicos,<br />
+        vamos iniciar a montagem do cubo:
+      </p>
+
+      <h1 id="passo1">1 Passo) localizar o centro amarelo:</h1>
+      <p>
+        Agora sabemos que o centro amarelo, indica que aquela<br />
+        face será a amarela!
+      </p>
+      <br />
+
+      <p>Vamos montar uma Cruz branca com o centro amarelo</p>
+
+      <img src="cruz_branca.jpg" />
+
+      <p>
+        Essa parte é intuitiva requer um pouco de treino,<br />
+        Não é difícil, como você conhece o cubo localize as peças <br />
+        dos meios brancos:<br />
+        (Branco + Verde)<br />
+        (Branco + Vermelho)<br />
+        (Branco + Azul)<br />
+        (Branco + Laranja)<br />
+        Em seguida gire ate formar a c -->ruz abaixo:
+      </p>
+      <img src="cruz_branca.jpg" />
+      <h1 id="passo2">2 Passo) Colocar a cruz branca (com centro amarelo):</h1>
+      <p>Mantenha a cruz branca voltada para cima, conforme foto abaixo:</p>
+      <img src="cruz_branca_cima.jpg" />
+      <p>
+        Faça o movimento U que aprendemos acima até que a cor da peça<br />
+        que esta com a branca encaixe com a peça do centro conforme foto abaixo:
+      </p>
+      <img src="cruz_branca_meio.jpg" />
+      <p>
+        Perfeito! No exemplo acima temos a peça branca + vermelha batendo <br />
+        com o centro vermelho, mantenha o cubo nessa posição e gire 2 vezes
+        <br />
+        ate que a peça branca + vermelha fique para baixo (batendo centro do
+        branco com branco)<br />
+        conforme na imagem abaixo:
+      </p>
+      <img src="centro_branco.jpg" />
+      <p>Repita esse movimento com os outros centros brancos:</p>
+      <img src="centro_branco2.jpg" />
+      <p>
+        <strong>Observe: </strong> Os centros brancos batendo as cores com os
+        meios respectivos (laranja,verde,azul)
+      </p>
+      <h1 id="passo3">
+        3 Passo) Segure o cubo, mantendo a cruz branca que fizemos para baixo:
+      </h1>
+      <p>
+        Com isso o centro amarelo estará voltado para cima! <br />
+        Vamos agora montar a face branca, ou seja ajustar as quinas <br />
+        Na cruz que acabamos de montar! <br />
+        Agora a brincadeira vai começar a ficar seria meu jovem ninja! <br />
+        Localizar uma quina branca na parte superior do cubo: <br />
+      </p>
+      <img src="quina1.jpg" />
+      <p>
+        Vamos trabalhar as quinas agora, vamos localizar quinas que precisaremos
+        jogar para <br />
+        Face branca, vamos usar o exemplo acima para as demais quinas também,
+        observe que <br />
+        A quina 1 em destaque acima tem as seguintes cores : AZUL + LARANJA +
+        BRANCO <br />
+        Ou seja esta mantenha ela entre os centros LARANJA E AZUL. <br />
+        Precisamos fazer com que a peça destacada acima 1, vá para baixo no
+        lugar da peça <br />
+      </p>
+      <p>
+        Acima destacada como 2, e fazemos isso com uma sequencia muito
+        importante, <br />
+        Que vamos aprender de movimentos, iremos usar bastante esses movimentos,
+        <br />
+        Dica do Hokage decore esse movimento e treine-o: <br />
+      </p>
+      <h1>R + U + RA + UA</h1>
+      <p>
+        Segure o cubo conforme imagem abaixo e aplique o movimento acima, <br />
+        até que a peça destacada 1 fique com a face branca para baixo, <br />
+        repita os movimentos até que isso aconteça, <br />
+        importante a face laranja abaixo não pode sair de posição: <br />
+      </p>
+      <img src="quina2.jpg" />
+      <h3>Aplicando o movimento o cubo ficara da seguinte forma:</h3>
+      <img src="quina3.jpg" />
+      <p>
+        Aplique esse movimento que aprendemos na peça acima com as demais,
+        quinas <br />
+        Erradas, onde a quinta não estiver na posição certa, aplique o
+        movimento: <br />
+      </p>
+
+      <h1>R + U + RA + UA</h1>
+
+      <p>
+        Até que a peça fique na posição correta, fazendo isso em todas aqui
+        quinas. <br />
+        Observação: quando a peça já esta embaixo porem no lugar errado, aplique
+        o movimento <br />
+        Como se ela tivesse em cima como no exemplo acima, pronto a peça irá
+        ficar como no <br />
+        Exemplo, aplique o movimento e siga em frente! <br />
+      </p>
+      <h2>Você terá uma surpresa</h2>
+      <p>
+        você acabou de finalizar sua primeira face (Branca) completa Ou seja, a
+        primeira camada do cubo está pronta!
+      </p>
+      <img src="face_branca.jpg" />
+      <h1>Parabéns meu Jovem Gennin, a primeira fase você já concluiu!</h1>
+      <p>Está pronto para seguir em frente?</p>
+      <h3>Aposto que sim!</h3>
+      <img src="gai1.gif" />
+      <h1 id="passo4">4 passo) Vamos arrumas os meios!</h1>
+      <p>Mantendo a face amarela para cima conforme imagem abaixo:</p>
+      <img src="meio1.jpg" />
+      <p>
+        Procure na face amarela (voltada para cima)
+        <strong> meio que não Tenha a cor amarela</strong>, conforme imagem
+        abaixo:
+      </p>
+      <p>
+        No caso abaixo precisamos fazer com que a peça azul e vermelha <br />
+        Vá para o lugar que está alocada a peça amarela e verde, porque? <br />
+        Podemos analisar os dois centros, a direita temos o vermelho e a
+        esquerda o <br />
+        Azul encaixando perfeitamente a peça que estamos movimentando agora.
+        <br />
+
+        Repetiremos esse movimento com os outros meios, fique tranquilo <br />
+        Parece muita informação mais é bem simples é o mesmo movimento, <br />
+        Feito várias vezes. <br />
+      </p>
+      <img src="meio2.jpg" />
+      <h3>Movimento:</h3>
+      <h1>U + (R + RA + UA (ROTACIONA) + LA + UA + L + U)</h1>
+      <p>
+        O que tem de novo nesse movimento? <br />
+        <strong>ROTACIONA</strong> = gire em sentido horário a forma que está
+        segurando o cubo, <br />
+        No inicio do movimento iniciamos com o centro azul voltado para nós,
+        depois do <br />
+        ROTACIONA, seguimos com o movimento só que agora o centro voltado <br />
+        para nós é vermelho <br />
+      </p>
+      <img src="meio4.jpg" />
+      <p>
+        Com isso a peça <strong> + vermelha</strong>, vai para seu devido lugar!
+      </p>
+      <p>
+        Quando não tivermos opção, ou seja, só teremos meios com amarelo basta
+        fazer <br />
+        o movimento onde existe um meio com amarelo esta no lugar errado, <br />
+        com isso a peçabaixo destacada abaixo irá subir para a face amarela!
+        <br />
+        Pronto caímos na situação acima, aplique o movimento e siga o jogo!
+        <br />
+      </p>
+      <img src="meio5.jpg" />
+      <p>
+        Alocando todos os meios, já avançamos muito ou seja, <br />
+        já temos a segunda camada completamente montada: <br />
+      </p>
+      <img src="segundacamada.jpg" />
+
+      <h1 id="passo5">5 Passo) Cruz amarela na parte superior:</h1>
+      <img src="cruz_amarela.jpg" />
+      <p>
+        A posição da face superior é o que irá determinar o movimento, <br />
+        Vamos chamar de L invertido: <br />
+      </p>
+      <img src="cruz_amarela2.jpg" />
+      <p>
+        Caso tenhamos acima somente o centro amarelo, sem problema <br />
+        Seguimos o movimento sem nos preocuparmos com a posição, <br />
+        Pode ocorrer também das três peças amarelas dos meios ficarem <br />
+        alinhadas mantenha-as na posição horizontal e faça o movimento que vamos
+        <br />
+        aprender agora: <br />
+      </p>
+
+      <h2>F - Frente horário</h2>
+      <h2>FA - Frente anti-horário</h2>
+      <p>Movimentos novos, mas super simples:</p>
+      <p>Movimentos novos, mas super simples:</p>
+      <h2>F - Frente horário</h2>
+      <img src="frentehorario.jpg" />
+      <h2>FA - Frente anti-horário</h2>
+      <img src="frenteanthorario.jpg" />
+      <p>Movimento para fazermos a <strong> CRUZ AMARELA:</strong></p>
+      <h1>F + ( R+ U + RA + UA) + FA</h1>
+      <img src="cruz_amarela3.jpg" />
+      <p>
+        Repita o movimento acima até você ter na face amarela uma cruz!<br />
+        Feito isso, concluímos mais uma etapa.
+      </p>
+      <h1 id="passo6">
+        6 Passo) Objetivo finalizarmos a face amarela por completo.
+      </h1>
+      <p>Vamos trabalhar agora com o a face branca voltada para cima:</p>
+      <img src="sextopasso.jpg" />
+      <p>
+        Essa parte da montagem vamos chamar de: “Arrumando as quinas” <br />
+        Destacamos uma como exemplo na imagem acima. <br />
+        Posicione o cubo desta maneira, mantendo uma quina na posição errada,
+        <br />
+        Na sua direita! <br />
+      </p>
+      <img src="sextopasso2.jpg" />
+      <p>Aplique o movimento:</p>
+      <h1>R + U + RA + UA</h1>
+      <p>Sempre faça todos os movimentos.</p>
+      <p>
+        Não solte o cubo da posição que iniciou os movimentos, <br />
+        E continue fazendo o movimento acima até que a peça destacada <br />
+        Fique com a cor amarela voltada para baixo! <br />
+      </p>
+      <img src="sextopasso3.jpg" />
+      <p>
+        Não se desespere, essa hora o cubo irá desmontar, mas não o solte<br />
+        Para não perder a referencia que iniciamos o movimento. <br />
+        No caso acima repare que a face voltada para nós (peça do centro),<br />
+        é a <strong>FACE VERDE</strong>:
+      </p>
+      <p>
+        Vamos arrumar a última quina, nesse caso tivemos que arrumar somente
+        duas Se tiver que arrumar as quatro repita os movimentos serão iguais!
+      </p>
+      <img src="sextopasso4.jpg" />
+      <p>
+        Vamos ter que girar a face amarela (voltada para baixo), quantas vezes
+        for necessária Para posicionarmos a peça (quina), errada na nossa
+        direita:
+      </p>
+      <img src="sextopasso5.jpg" />
+      <p>
+        Repare que o centro verde não saiu de posição, somente<br />
+        Giramos a face de baixo, alocando a quina errada na direita, <br />
+        Para que possamos realizar novamente o movimento acima: <br />
+      </p>
+      <p>Aplique o movimento:</p>
+      <h1>R + U + RA + UA</h1>
+      <p>Repita ata que a face amarela fique voltada para baixo!</p>
+      <p>Faça isso com todas as quinas, dessa forma a face amarela estará</p>
+      <h2>Concluída</h2>
+      <img src="face_amarela.jpg" />
+      <h1 id="passo7">7 passo) vamos arrumas as quinas:</h1>
+      <h3>Quinas erradas:</h3>
+      <img src="quinasamarelas.jpg" />
+      <p>Como queremos que elas fiquem:</p>
+      <img src="quinasamarelas2.jpg" />
+      <p>
+        Como fazemos isso? <br />
+        Claro que vamos aprender um movimento novo: <br />
+      </p>
+      <h1>B – Face de trás horário</h1>
+      <img src="quinasamarelas3.jpg" />
+      <h1>BA – Face de trás anti-horário</h1>
+      <img src="quinasamarelas4.jpg" />
+      <h1>B2 – Face de trás duas vezes horário</h1>
+      <img src="quinasamarelas5.jpg" />
+      <p>
+        Movimento completo: Localize duas quinas que já estão no lugar certo, E
+        as posicione na face de trás para realizar o movimento: (abaixo elas
+        estão para frente)
+      </p>
+      <img src="quinasamarelas6.jpg" />
+      <p>
+        Se nenhuma quina estiver certa sem problema, <br />
+        o importante é que a face amarela esteja voltada para cima. <br />
+
+        Se concentre, pois esse é o penúltimo passo! <br />
+        Movimento: <br />
+      </p>
+      <h1>RA + F + RA + B2 + R + FA + RA + B2 + R2</h1>
+
+      <p>
+        Feito o movimento acima as quinas ficaram <strong>TODAS</strong> em seu
+        devido lugar:
+      </p>
+      <img src="face_amarelapronta.jpg" />
+      <h2 id="ultimopasso">Preparado para o ULTIMO PASSO?</h2>
+      <img src="gai2.gif" />
+      <p>
+        Último movimento: se tiver alguma face pronta a mantenha voltada para
+        frente.
+      </p>
+      <h3>Faça o movimento!</h3>
+      <img src="ultimaface.jpg" />
+      <p>
+        Se não tiver nenhuma face voltada para a frente faça de qualquer lado,
+        <br />
+        claro mantendo a face amarela voltada para cima! <br />
+      </p>
+      <p>Movimento:</p>
+      <h2>
+        R + U + RA + UA - LA + UA + L + U - U + R + UA + RA - UA + LA + U + L
+      </h2>
+      <p>
+        Depois do movimento acima temos somente duas opções, <br />
+        Ou você arrumou uma das faces se foi isso mantenha <br />
+        a mesma voltada para a frente e repita o movimento <br />
+        com isso não teremos duvida que o cubo está....
+        <strong>MONTADO!</strong> <br />
+      </p>
+      <img src="ultima.jpg" />
+      <p>
+        Parabéns meu amigo agora podemos dizer que você não <br />
+        é mais um Gennin, e sim um Jonnin!
+      </p>
+      <img src="gai3.gif" />
+      <p>
+        Para se tornar um <strong>Hokague</strong> fica aqui o desafio, <br />
+        Termine o cubo em menos de 3 minutos, agora é contigo <br />
+        Pratique bastante e um dia você chega lá!
+      </p>
+      -->
+    </main>
   </body>
-</header>
-  <main>
-  <p>Agora que já aprendemos os movimentos básicos,<br />
-    vamos iniciar a montagem do cubo:
-  </p>
-  <h1>1 Passo) localizar o centro amarelo:</h1>
-  <p>Agora sabemos que o centro amarelo, indica que aquela<br />
-    face será a amarela!<br />
- 
-  Vamos montar uma Cruz branca com o centro amarelo
- </p>
- <img src="cruz_branca.jpg">
-<p>Essa parte é intuitiva requer um pouco de treino,<br />
-Não é difícil, como você conhece o cubo localize as peças <br />
-dos meios brancos:<br />
-(Branco + Verde)<br />
-(Branco + Vermelho)<br />
-(Branco + Azul)<br />
-(Branco + Laranja)<br />
-Em seguida gire ate formar a cruz abaixo:</p> 
-<img src="cruz_branca.jpg">
-<h1>2 Passo) Colocar a cruz branca (com centro amarelo):</h1>
-<p> Mantenha a cruz branca voltada para cima, conforme foto abaixo:</p>
-<img src="cruz_branca_cima.jpg">
-<p> Faça o movimento U que aprendemos acima até que a cor da peça<br /> que esta
-  com a branca encaixe com a peça do centro conforme foto abaixo:
-  </p>
-  <img src="cruz_branca_meio.jpg">
-  <p> Perfeito! No exemplo acima temos a peça branca + vermelha batendo <br /> 
-    com o centro vermelho, mantenha o cubo nessa posição e gire 2 vezes <br />
-    ate que a peça branca + vermelha fique para baixo (batendo centro do branco com branco)<br />
-    conforme na imagem abaixo:    
-    </p>
-    <img src="centro_branco.jpg">
-    <p>Repita esse movimento com os outros centros brancos:</p>
-    <img src="centro_branco2.jpg">
-    <p><strong>Observe:</strong> Os centros brancos batendo as cores com os meios respectivos (laranja,verde,azul)</p>
-  <h1>3 Passo) Segure o cubo, mantendo a cruz branca que fizemos para baixo:</h1>   
-  <p>Com isso o centro amarelo estará voltado para cima! <br />
-    Vamos agora montar a face branca, ou seja ajustar as quinas <br />
-    Na cruz que acabamos de montar! <br />
-    Agora a brincadeira vai começar a ficar seria meu jovem ninja! <br />
-    Localizar uma quina branca na parte superior do cubo: <br />
-    </p>  
-    <img src="quina1.jpg">
-    <p>
-      Vamos trabalhar as quinas agora, vamos localizar quinas que precisaremos jogar para <br />
-Face branca, vamos usar o exemplo acima para as demais quinas também, observe que <br />
-A quina 1 em destaque acima tem as seguintes cores : AZUL + LARANJA + BRANCO <br />
-Ou seja esta mantenha ela entre os centros LARANJA E AZUL. <br />
-Precisamos fazer com que a peça destacada acima 1, vá para baixo no lugar da peça <br />
-</p>
-<p>Acima destacada como 2, e fazemos isso com uma sequencia muito importante, <br />
-  Que vamos aprender de movimentos, iremos usar bastante esses movimentos, <br />
-  Dica do Hokage decore esse movimento e treine-o: <br />
-  </p>
-  <h1>R + U + RA + UA</h1>
-  <p>Segure o cubo conforme imagem abaixo e aplique o movimento acima, <br />
-    até que a peça destacada 1 fique com a face branca para baixo, <br />
-    repita os movimentos até que isso aconteça, <br />
-    importante a face laranja abaixo não pode sair de posição: <br />
-    </p>
-    <img src="quina2.jpg">
-  <h3>Aplicando o movimento o cubo ficara da seguinte forma:</h3>
-  <img src="quina3.jpg"> 
-  <p>Aplique esse movimento que aprendemos na peça acima com as demais, quinas <br />
-    Erradas, onde a quinta não estiver na posição certa, aplique o movimento: <br />
-    <h1>R + U + RA + UA</h1>
-    Até que a peça fique na posição correta, fazendo isso em todas aqui quinas. <br />
-    Observação: quando a peça já esta embaixo porem no lugar errado, aplique o movimento <br />
-    Como se ela tivesse em cima como no exemplo acima, pronto a peça irá ficar como no <br />
-    Exemplo, aplique o movimento e siga em frente! <br /></p>
-  <h2>Você terá uma surpresa</h2>  
-  <p>você acabou de finalizar sua primeira face (Branca) completa 
-    Ou seja, a primeira camada do cubo está pronta!
-    </p>
-  <img src="face_branca.jpg">
-<h1>Parabéns meu Jovem Gennin, a primeira fase você já concluiu!</h1>
-<p>Está pronto para seguir em frente?</p>
-<h3>Aposto que sim!</h3>
-<img src="gai1.gif">
-<h1>4 passo)  Vamos arrumas os meios!</h1>
-<p>Mantendo a face amarela para cima conforme imagem abaixo:</p>
-<img src="meio1.jpg">
-<p>Procure na face amarela (voltada para cima) <strong> meio que não
-  Tenha a cor amarela</strong>, conforme imagem abaixo:
-  </p>
- <p>No caso abaixo precisamos fazer com que a peça azul e vermelha <br />
-  Vá para o lugar que está alocada a peça amarela e verde, porque? <br />
-  Podemos analisar os dois centros, a direita temos o vermelho e a esquerda o <br />
-  Azul encaixando perfeitamente a peça que estamos movimentando agora. <br />
-  
-  Repetiremos esse movimento com os outros meios, fique tranquilo <br />
-  Parece muita informação mais é bem simples é o mesmo movimento, <br />
-  Feito várias vezes. <br />
-  </p> 
-  <img src="meio2.jpg">
-  <h3>Movimento:</h3>
-  <h1>U + (R + U + RA + UA (ROTACIONA) + LA + UA + L + U)</h1>
-  <p>O que tem de novo nesse movimento? <br />
-    <strong>ROTACIONA</strong> = gire em sentido horário a forma que está segurando o cubo, <br />
-    No inicio do movimento iniciamos com o centro azul voltado para nós, depois do <br />
-    ROTACIONA, seguimos com o movimento só que agora o centro voltado <br />
-    para nós é vermelho <br />
-    </p>
-    <img src="meio4.jpg">
-  <p>Com isso a peça <strong> + vermelha</strong>, vai para seu devido lugar!</p>
-<p>Quando não tivermos opção, ou seja, só teremos meios com amarelo basta fazer <br />
-  o movimento onde existe um meio com amarelo esta no lugar errado, <br />
-  com isso a peçabaixo destacada abaixo irá subir para a face amarela! <br />
-  Pronto caímos na situação acima, aplique o movimento e siga o jogo! <br />
-  </p>
-<img src="meio5.jpg">
-<p>Alocando todos os meios, já avançamos muito ou seja, <br />
-  já temos a segunda camada completamente montada: <br />
-  </p>
-  <img src="segundacamada.jpg">
-
-<h1>5 Passo)  Cruz amarela na parte superior:</h1>
-<img src="cruz_amarela.jpg">
-<p>  A posição da face superior é o que irá determinar o movimento, <br />
-Vamos chamar de L invertido: <br />
-</p>
-<img src="cruz_amarela2.jpg">
-<p>Caso tenhamos acima somente o centro amarelo, sem problema <br />
-  Seguimos o movimento sem nos preocuparmos com a posição, <br />
-  Pode ocorrer também das três peças amarelas dos meios ficarem <br />
-  alinhadas mantenha-as na posição horizontal e faça o movimento que vamos <br />
-  aprender agora: <br /></p>
-
-  <h2>F - Frente horário </h2>
-  <h2>FA - Frente anti-horário </h2>
-  <p>Movimentos novos, mas super simples:</p>
-  <p>Movimentos novos, mas super simples:</p>
-  <h2>F - Frente horário </h2>
-  <img src="frentehorario.jpg">
-  <h2>FA - Frente anti-horário </h2>
-  <img src="frenteanthorario.jpg">
-<p>Movimento para fazermos a <strong> CRUZ AMARELA:</strong></p>
-<h1>F + ( R+ U + RA + UA) + FA</h1>
-<img src="cruz_amarela3.jpg">
-<p>Repita o movimento acima até você ter na face amarela uma cruz!<br />
-  Feito isso, concluímos mais uma etapa.
-  </p>
-  <h1>6 Passo) Objetivo finalizarmos a face amarela por completo.</h1>
-<p>Vamos trabalhar agora com o a face branca voltada para cima:</p>
-<img src="sextopasso.jpg">
-<p>Essa parte da montagem vamos chamar de: “Arrumando as quinas” <br />
-  Destacamos uma como exemplo na imagem acima. <br />  
-  Posicione o cubo desta maneira, mantendo uma quina na posição errada, <br />
-  Na sua direita! <br /></p>
-  <img src="sextopasso2.jpg">
-  <p>Aplique o movimento: </p>
-<h1>R + U + RA + UA</h1>
-<p>Sempre faça todos os movimentos.</p>
-<p>Não solte o cubo da posição que iniciou os movimentos, <br />
-  E continue fazendo o movimento acima até que a peça destacada <br />
-  Fique com a cor amarela voltada para baixo! <br /></p>
-  <img src="sextopasso3.jpg">
-  <p>Não se desespere, essa hora o cubo irá desmontar, mas não o solte<br />
-    Para não perder a referencia que iniciamos o movimento. <br />
-    No caso acima repare que a face voltada para nós (peça do centro),<br />
-    é a <strong>FACE VERDE</strong>:</p>
-    <p>Vamos arrumar a última quina, nesse caso tivemos que arrumar somente duas
-      Se tiver que arrumar as quatro repita os movimentos serão iguais!</p>
-      <img src="sextopasso4.jpg">
-      <p>Vamos ter que girar a face amarela (voltada para baixo), quantas vezes for necessária 
-        Para posicionarmos a peça (quina), errada na nossa direita:</p>
-        <img src="sextopasso5.jpg">           
-        <p>Repare que o centro verde não saiu de posição, somente<br />
-          Giramos a face de baixo, alocando a quina errada na direita, <br />
-          Para que possamos realizar novamente o movimento acima: <br /></p>
-<p>Aplique o movimento:</p>     
-<h1>R + U + RA + UA </h1>     
-<p>Repita ata que a face amarela fique voltada para baixo!</p>  
-<p>Faça isso com todas as quinas, dessa forma a face amarela estará </p>
-<h2>Concluída</h2>  
-<img src="face_amarela.jpg">   
-<h1>7 passo) vamos arrumas as quinas:</h1> 
-<h3>Quinas erradas:</h3>    
-<img src="quinasamarelas.jpg"> 
-<p>Como queremos que elas fiquem:</p>
-<img src="quinasamarelas2.jpg"> 
-<p>Como fazemos isso? <br />
-Claro que vamos aprender um movimento novo: <br /></p>
-<h1>B – Face de trás horário</h1>  
-<img src="quinasamarelas3.jpg"> 
-<h1>BA – Face de trás anti-horário</h1>
-<img src="quinasamarelas4.jpg"> 
-<h1>B2 – Face de trás duas vezes horário</h1>
-<img src="quinasamarelas5.jpg"> 
-<p>Movimento completo: Localize duas quinas que já estão no lugar certo,
-  E as posicione na face de trás para realizar o movimento: 
-  (abaixo elas estão para frente) </p>
-  <img src="quinasamarelas6.jpg"> 
-  <p>Se nenhuma quina estiver certa sem problema, <br />
-    o importante é que a face amarela esteja voltada para cima. <br />
-    
-    Se concentre, pois esse é o penúltimo passo! <br />
-    Movimento: <br /></p>
-    <h1>RA + F + RA + B2 + R + FA + RA + B2 + R2</h1> 
-    
-    <p>Feito o movimento acima as quinas ficaram <strong>TODAS</strong> em seu devido lugar:</p>
-    <img src="face_amarelapronta.jpg"> 
-  <h2>Preparado para o ULTIMO PASSO?</h2>
-  <img src="gai2.gif"> 
-  <p>Último movimento:  se tiver alguma face pronta a mantenha voltada para frente.</p>
-  <h3>Faça o movimento!</h3>
-  <img src="ultimaface.jpg"> 
-  <p>Se não tiver nenhuma face voltada para a frente faça de qualquer lado, <br />
-    claro mantendo a face amarela voltada para cima! <br /></p>
-<p>Movimento: </p>
-<h2>R + U + RA + UA - LA + UA + L + U - U + R + UA + RA - UA + LA + U + L</h2>
-<p>Depois do movimento acima temos somente duas opções, <br />
-  Ou você arrumou uma das faces se foi isso mantenha <br />
-  a mesma voltada para a frente e repita o movimento <br />
-  com isso não teremos duvida que o cubo está.... <strong>MONTADO!</Strong> <br /></p>
-    <img src="ultima.jpg">  
-<p>Parabéns meu amigo agora podemos dizer que você não <br />
-  é mais um Gennin, e sim um Jonnin!
-  </p>
-  <img src="gai3.gif">
-  <p>Para se tornar um <strong>Hokague</Strong> fica aqui o desafio, <br />
-    Termine o cubo em menos de 3 minutos, agora é contigo <br />
-    Pratique bastante e um dia você chega lá!</p>
-    
-</main>
 </html>
