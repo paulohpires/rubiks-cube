@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 600px) {
+@media only screen and (min-width: 768px) {
 /* .menu { width:600px; } */
 }
 
@@ -8,8 +8,10 @@ background-color: coral;
 
 }
 
-#menu { 
 
+
+#menu { 
+  min-width: 768px;
   font-size: 30px;
   position: fixed;
    top: 50%;
