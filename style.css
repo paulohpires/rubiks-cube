@@ -1,6 +1,6 @@
-@media screen
-(min-width: 200px);
-(max-width: 640px);
+@media screen and
+(min-width: 200px) and
+(max-width: 640px)
 body {
   background-color: coral;
   padding: 10px;
