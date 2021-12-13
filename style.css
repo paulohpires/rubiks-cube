@@ -11,6 +11,7 @@ background-color: coral;
 
 
 #menu { 
+  opacity : 0.5 ;
   min-width: 768px;
   font-size: 30px;
   position: fixed;
