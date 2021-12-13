@@ -1,3 +1,6 @@
+@media only screen and (max-device-width: 600px) {
+/* .menu { width:600px; } */
+}
 body {
 background-color: red;
 }
