@@ -11,13 +11,13 @@ background-color: coral;
 
 
 #menu { 
-  opacity : 0.4 ;
-  min-width: 768px;
-  font-size: 18px;
   position: fixed;
-  top: 50%;
   right: 0;
-  margin-top: -4em;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+  opacity : 0.4 ;
+  font-size: 18px;
   background-color: green;
 }
 #passo1 {
