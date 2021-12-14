@@ -9,23 +9,22 @@ body {
 }
 @media screen and (max-width: 600px) {
   img {
-    width: 10px;
-  }
-  img {
     width: 250px;
   }
 }
 
 #menu {
-  opacity: 70%;
+  opacity: 55%;
   position: fixed;
-  font-style: italic;
-  color: red;
+  font-style: bold;
+  color: white;
   right: 0;
   top: 50%;
-  /*   width: 8em; */
+  width: 7.5em;
   margin-top: -2.5em;
   background-color: darkgreen;
+  border-radius: 5px;
+  padding: 3px;
 }
 #passo1 {
   font-weight: bold;
