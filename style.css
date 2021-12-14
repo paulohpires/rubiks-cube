@@ -1,24 +1,14 @@
-@media only screen and (min-width: 768px) {
-/* .menu { width:600px; } */
-}
-
 body {
-
-background-color: coral;
-
+  background-color: coral;
+  padding: 10px;
 }
-
-
-
-#menu { 
-  opacity : 0.4 ;
-  min-width: 250px;
-  font-size: 18px;
+#menu {
   position: fixed;
-  top: 50%;
   right: 0;
-  margin-top: -4em;
-  background-color: green;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+  background-color: darkgreen;
 }
 #passo1 {
   font-weight: bold;
