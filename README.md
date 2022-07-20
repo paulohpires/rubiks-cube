@@ -1,2 +1,2 @@
-# rubiks-cube
-Como montar um cubo mágico.
+# rubiks_cube
+How to Solve a Rubik's Cube like a ninja.
